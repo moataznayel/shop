@@ -1,0 +1,117 @@
+body{
+    background: #0097a7 !important
+}
+.card{
+    background: #0097a7
+}
+.text-nav{
+    color: #0097a7;
+}
+.seling{
+    background-color:white ;
+   
+}
+.shop-bg{
+    background-image: url(../Photos/Shop1.jpg);
+    background-size:cover;
+    height: 80vh;
+    
+}
+.shop-bg h1{
+    font-size: 6rem;
+   
+}
+@media(max-width:500px){
+    .shop-bg{
+        height: 18vh;    
+    }
+    .shop-bg h1{
+        font-size: 3rem;
+    }
+}
+@media(min-width:501px){
+    .shop-bg{
+        height: 30vh;    
+    }
+    .shop-bg h1{
+        font-size: 3rem;
+    }
+}
+@media(min-width:765px){
+    .shop-bg{
+        height: 50vh;    
+    }
+    .shop-bg h1{
+        font-size: 3rem;
+    }
+}
+@media(min-width:991px){
+    .shop-bg{
+        height: 70vh;    
+    }
+    .shop-bg h1{
+        font-size: 6rem;
+    }
+}
+@media(min-width:1200px){
+    .shop-bg{
+        height: 75vh;    
+    }
+    .shop-bg h1{
+        font-size: 6rem;
+    }
+}
+
+.text-over h1{
+    font-size: 3rem;
+    font-weight: 100;
+    
+}
+.text-over{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text-over p{
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+.text-img p{
+font-size: 3rem;
+font-weight: 900;
+}
+
+.vintage-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.vintage-style h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
+.badge{
+    top:-54%;
+    left: 50%;
+}
+.icon{
+    cursor: pointer;
+}
+@media (max-width:765px) {
+    .vintage-style h1{
+        font-size: 2rem;
+    }
+    .text-img p{
+        font-size: 2rem;
+       
+        }
+       
+}
+@media(max-width:991px){
+   
+}
+.border-card{
+    border: 8px outset !important;
+}
